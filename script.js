@@ -55,3 +55,15 @@ function openCity(evt, cityName) {
 
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
+
+// Tab Area close 
+
+// Menu Toggle click 
+function menuToggle() {
+    var mobileMenu = document.getElementById("toggleMenu");
+    if (mobileMenu.style.display === "none") {
+        mobileMenu.style.display = "block";
+    } else {
+        mobileMenu.style.display = "none";
+    }
+}
